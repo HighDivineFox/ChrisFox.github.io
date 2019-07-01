@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(5, 5, 5);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.4;
@@ -28,10 +28,9 @@ a{
 }
 
 .wrapper{
-  border-radius: 5%;
   background-image: url("./Images/circles-light.png"); /* Background pattern from Toptal Subtle Patterns */
-  background-size: 60%;
-  
+  background-size: 30%;
+  clip-path: polygon(5% 0%, 95% 0%, 95% 100%, 5% 100%)
 }
   
   /* Medium screens */
